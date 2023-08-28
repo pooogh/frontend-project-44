@@ -1,2 +1,2 @@
-#!/home/poooh/frontend-project-44/frontend-project-44/bin node
+#!/usr/bin/env node
 console.log('Welcome to the Brain Games!');

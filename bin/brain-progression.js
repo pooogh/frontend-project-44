@@ -23,7 +23,7 @@ const QuestionAndAnswer = () => {
 	const leftSide = progression.slice(0, keyAnswerIndex).join(' ');
 	const rightSide = progression.slice(keyAnswerIndex + 1).join(' ');
 
-	return [`${leftSide} ... ${rightSide}`, keyAnswer];
+	return [`${leftSide} .. ${rightSide}`, keyAnswer];
 };
 
 gameSkeleton(greetText, QuestionAndAnswer);

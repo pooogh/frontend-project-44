@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { gameSkeleton } from './game-skeleton.js';
+import gameSkeleton from './game-skeleton.js';
 
 const greetText = 'Find the greatest common divisor of given numbers.';
 
@@ -22,4 +22,4 @@ const QuestionAndAnswer = () => {
   return [questionText, result];
 };
 
-gameSkeleton(greetText, QuestionAndAnswer);
+gameSkeleton.game(greetText, QuestionAndAnswer);

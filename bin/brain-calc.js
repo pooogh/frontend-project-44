@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { gameSkeleton } from './game-skeleton.js';
+import gameSkeleton from './game-skeleton.js';
 
 const greetText = 'What is the result of the expression?';
 const QuestionAndAnswer = () => {
@@ -24,4 +24,4 @@ const QuestionAndAnswer = () => {
   return [questionText, String(keyAnswer)];
 };
 
-gameSkeleton(greetText, QuestionAndAnswer);
+gameSkeleton.game(greetText, QuestionAndAnswer);

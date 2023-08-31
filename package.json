@@ -18,6 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/node": "^7.22.10",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

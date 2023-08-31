@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { gameSkeleton } from './game-skeleton.js';
+import gameSkeleton from './game-skeleton.js';
 
 const greetText = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -24,4 +24,4 @@ const QuestionAndAnswer = () => {
   return [question, keyAnswer];
 };
 
-gameSkeleton(greetText, QuestionAndAnswer);
+gameSkeleton.game(greetText, QuestionAndAnswer);

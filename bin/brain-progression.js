@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { gameSkeleton } from './game-skeleton.js';
+import gameSkeleton from './game-skeleton.js';
 
 const greetText = 'What number is missing in the progression?';
 
@@ -25,4 +25,4 @@ const QuestionAndAnswer = () => {
   return [`${leftSide} .. ${rightSide}`, keyAnswer];
 };
 
-gameSkeleton(greetText, QuestionAndAnswer);
+gameSkeleton.game(greetText, QuestionAndAnswer);

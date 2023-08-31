@@ -9,7 +9,7 @@ const QuestionAndAnswer = () => {
 	const progressionLengthIndex = Math.floor(Math.random() * progressionCount.length);
 	const progressionLength = progressionCount[progressionLengthIndex];
 
-	const progressionStep = Math.floor(Math.random() * 30);
+	const progressionStep = Math.ceil(Math.random() * 30);
 	const progressionMin = Math.floor(Math.random() * 100);
 
 	const progression = [progressionMin];

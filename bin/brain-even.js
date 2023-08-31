@@ -13,25 +13,25 @@ let mark = true;
 let level = 0;
 let keyAswer = '';
 
-while (mark == true && level < 3) {
-	level += 1;
-	let number = Math.floor(Math.random() * 100);
-	console.log(`Question: ${number} `);
-	let answer = readlineSync.question('Your answer: ');
-	if (number % 2 == 0) {
-		keyAswer = 'yes';
-	} else {
-		keyAswer = 'no';
-	}
-	if (answer == keyAswer) {
-		console.log('Correct!');
-	} else {
-		console.log(`${answer} is wrong answer ;(. Correct answer was ${keyAswer}.`);
-		mark = false;
-	}
+while (mark === true && level < 3) {
+  level += 1;
+  const number = Math.floor(Math.random() * 100);
+  console.log(`Question: ${number} `);
+  const answer = readlineSync.question('Your answer: ');
+  if (number % 2 === 0) {
+    keyAswer = 'yes';
+  } else {
+    keyAswer = 'no';
+  }
+  if (answer === keyAswer) {
+    console.log('Correct!');
+  } else {
+    console.log(`${answer} is wrong answer ;(. Correct answer was ${keyAswer}.`);
+    mark = false;
+  }
 }
-if (mark == true) {
-	console.log(`Congratulations, ${playerName}!`);
+if (mark === true) {
+  console.log(`Congratulations, ${playerName}!`);
 } else {
-	console.log(`Let's try again, ${playerName}!`);
+  console.log(`Let's try again, ${playerName}!`);
 }

@@ -17,7 +17,7 @@ const QuestionAndAnswer = () => {
 		progression.push(progression[i] + progressionStep);
 	}
 
-	const keyAnswerIndex = Math.floor(Math.random() * progressionCount.length);
+	const keyAnswerIndex = Math.floor(Math.random() * (progressionCount.length - 1));
 	const keyAnswer = progression[keyAnswerIndex];
 
 	const leftSide = progression.slice(0, keyAnswerIndex).join(' ');

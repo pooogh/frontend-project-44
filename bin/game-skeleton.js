@@ -4,8 +4,7 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const readlineSync = require('readline-sync');
 
-const gameSkeleton = function () {};
-gameSkeleton.game = (greetText, gameFilling) => {
+export default function gameSkeleton(greetText, gameFilling) {
   console.log('Welcome to the Brain Games!');
 
   const playerName = readlineSync.question('May I have your name? ');
@@ -31,6 +30,4 @@ gameSkeleton.game = (greetText, gameFilling) => {
   }
 
   console.log(`Congratulations, ${playerName}!`);
-};
-
-export default gameSkeleton;
+}

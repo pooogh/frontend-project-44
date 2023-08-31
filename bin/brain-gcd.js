@@ -22,4 +22,4 @@ const QuestionAndAnswer = () => {
   return [questionText, result];
 };
 
-gameSkeleton.game(greetText, QuestionAndAnswer);
+gameSkeleton(greetText, QuestionAndAnswer);

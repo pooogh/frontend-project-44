@@ -25,4 +25,4 @@ const QuestionAndAnswer = () => {
   return [`${leftSide} .. ${rightSide}`, keyAnswer];
 };
 
-gameSkeleton.game(greetText, QuestionAndAnswer);
+gameSkeleton(greetText, QuestionAndAnswer);

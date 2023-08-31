@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/41871d039b87a93abdbc/maintainability)](https://codeclimate.com/github/pooogh/frontend-project-44/maintainability)
 [![asciicast](https://asciinema.org/a/605516.svg)](https://asciinema.org/a/605516)
 [![asciicast](https://asciinema.org/a/605518.svg)](https://asciinema.org/a/605518)
+[![asciicast](https://asciinema.org/a/605559.svg)](https://asciinema.org/a/605559)

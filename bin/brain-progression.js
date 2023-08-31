@@ -13,7 +13,7 @@ const QuestionAndAnswer = () => {
 	const progressionMin = Math.floor(Math.random() * 100);
 
 	const progression = [progressionMin];
-	for (let i = 0; i < progressionLength; i += 1) {
+	for (let i = 0; i < progressionLength - 1; i += 1) {
 		progression.push(progression[i] + progressionStep);
 	}
 

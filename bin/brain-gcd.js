@@ -5,8 +5,8 @@ import {gameSkeleton} from '../bin/game-skeleton.js';
 const greetText = 'Find the greatest common divisor of given numbers.';
 
 const QuestionAndAnswer = () => {
-	let operator1 = Math.floor(Math.random() * 100) + 1;
-	let operator2 = Math.floor(Math.random() * 20) + 1;
+	let operator1 = Math.ceil(Math.random() * 100);
+	let operator2 = Math.ceil(Math.random() * 20);
 	const questionText = `${operator1} ${operator2}`;
 
 	let result = 0;
